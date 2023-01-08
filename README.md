@@ -2,6 +2,6 @@
 
 here is the javascript concepts
 
-<p>
+<p style="color:brown;">
   this is paragraph
 </p>
