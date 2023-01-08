@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<script>
+  console.log("task-1");
+
+  // setTimeout(function,delay )
+  setTimeout(function () {
+    console.log("task-2");
+
+    console.log("ok");
+  }, 5000);
+
+  console.log("task-3");
+
+  let i = 0;
+  let interval = setInterval(function () {
+    console.log("task-4");
+    // every 5 second ok will be printed in setinteveral
+    i++;
+    if (i == 2) clearInterval(interval);
+  }, 500);
+
+  statusbar;
+</script>

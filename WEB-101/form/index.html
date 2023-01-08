@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <style>
+      form label,
+      form input {
+        /* border: 1px solid black; */
+        display: block;
+      }
+      form > input {
+        margin-bottom: 10px;
+      }
+      #smt {
+        display: block;
+      }
+      div {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <button id="btn">Sign UP With Your Email</button> -->
+
+    <form id="form">
+      <div class="sub-form">
+        <label for="email">Email</label>
+        <input type="text" id="email" />
+      </div>
+      <div class="sub-form">
+        <label for="pwd">password</label>
+        <input type="password" id="password" />
+      </div>
+      <div class="sub-form">
+        <label for="cfm">Confirmation</label>
+        <input type="password" id="confirm-password" />
+      </div>
+
+      <input type="submit" value="sign Up With Your Email Button" id="smt" />
+    </form>
+  </body>
+</html>
+<script>
+  let smt = document.getElementById("smt");
+  smt.addEventListener("click", (e) => {
+    e.preventDefault();
+    console.log(document.getElementsByClassName("sub-form"));
+    let sub_form = document.getElementsByClassName("sub-form");
+    for (let i = 0; i < sub_form.length; i++) {
+      sub_form[i].style.display = "block";
+    }
+    let form = document.getElementById("form");
+  });
+</script>
