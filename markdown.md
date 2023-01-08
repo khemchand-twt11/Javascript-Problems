@@ -74,7 +74,7 @@ go to the different section in the page
 
 ![dog_image][def]
 
-[def]: https://cdn.pixabay.com/photo/2016/02/19/15/46/labrador-retriever-1210559_960_720.jpg
+[def]: https://thumbs.dreamstime.com/z/golden-retriever-dog-21668976.jpg
 
 ```javascript
 
