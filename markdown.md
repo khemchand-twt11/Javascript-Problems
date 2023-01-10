@@ -94,3 +94,30 @@ function sum(arr,n)
 sum(7)
 
 ```
+
+# <span style="color:brown">**Javascript: Unique parts**</span>
+
+## Scope
+
+in Javascript, [variables](https://www.w3schools.com/) can belong to the **_global scope_** or to the **_local scope_.**
+
+`const x = 20;`
+
+# **This is Heading**
+
+![w3schools](https://w3schools.com)
+[w3schools](https://w3schools.com)
+
+```javascript
+const a = 20;
+const b = 30;
+console.log(a + b);
+```
+
+- gaurav
+- sharma
+- hello
+
+1. hii
+2. how are you
+3. this is gaurav
